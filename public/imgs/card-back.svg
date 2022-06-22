@@ -1,5 +1,7 @@
-<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="700" width="700" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
- <g id="layer1" transform="translate(80 -352.36)">
-  <text id="text2985" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="20px" line-height="125%" y="991.62" x="103.125" font-family="Segoe UI" fill="#000000"><tspan id="tspan2987" font-size="800px" y="991.62" x="103.125" fill="#ffffff">?</tspan></text>
- </g>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="700" width="700">
+    <g transform="translate(95 -415)">
+        <text font-weight="bold" font-family="Segoe UI">
+            <tspan font-size="675px" y="1000" x="100" fill="#ffffff">?</tspan>
+        </text>
+    </g>
 </svg>

@@ -1,0 +1,14 @@
+export const SET_SCORE = "SET_SCORE";
+export const SET_HIGHSCORE = "SET_HIGHSCORE";
+export const RESET_GAME = "RESET_GAME";
+
+export const SHUFFLE_CARDS = "SHUFFLE_CARDS";
+
+export const SET_FLIPPED_CARDS = "SET_FLIPPED_CARDS";
+
+export const SET_GAME_STARTED = "SET_GAME_STARTED";
+
+export const SET_CAN_FLIP = "SET_CAN_FLIP";
+
+export const UPDATE_MATCHED_CARDS = "UPDATE_MATCHED_CARDS";
+export const RESET_FLIPPED_CARDS = "RESET_FLIPPED_CARDS";
