@@ -15,12 +15,11 @@ export default (state, action) => {
 
     switch (type) {
         case INITIALIZE_GAME:
-            return {
-                ...state,
-                ...payload,
-            };
-
         case START_GAME:
+        case END_GAME:
+        case SET_FLIPPED_CARDS:
+        case SET_CAN_FLIP:
+        case SET_MATCHED_CARDS:
             return {
                 ...state,
                 ...payload,
@@ -29,30 +28,6 @@ export default (state, action) => {
         case RESET_GAME:
             return {
                 ...initialState,
-                ...payload,
-            };
-
-        case END_GAME:
-            return {
-                ...state,
-                ...payload,
-            };
-
-        case SET_FLIPPED_CARDS:
-            return {
-                ...state,
-                ...payload,
-            };
-
-        case SET_CAN_FLIP:
-            return {
-                ...state,
-                ...payload,
-            };
-
-        case SET_MATCHED_CARDS:
-            return {
-                ...state,
                 ...payload,
             };
 
